@@ -3,11 +3,27 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "oss-watch-local-development-key")
+SECRET_KEY = os.environ.get(
+    "DJANGO_SECRET_KEY",
+    "oss-watch-local-development-key",
+)
+
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 
-_allowed_hosts = os.environ.get("ALLOWED_HOSTS", "127.0.0.1,localhost,testserver")
-ALLOWED_HOSTS = [host.strip() for host in _allowed_hosts.split(",") if host.strip()]
+_allowed_hosts = os.environ.get(
+    "ALLOWED_HOSTS",
+    "127.0.0.1,localhost,testserver",
+)
+
+ALLOWED_HOSTS = [
+    host.strip()
+    for host in _allowed_hosts.split(",")
+    if host.strip()
+]
+
+render_hostname = os.environ.get("RENDER_EXTERNAL_HOSTNAME")
+if render_hostname and render_hostname not in ALLOWED_HOSTS:
+    ALLOWED_HOSTS.append(render_hostname)
 
 ROOT_URLCONF = "osswatch.urls"
 
