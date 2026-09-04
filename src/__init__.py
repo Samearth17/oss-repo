@@ -1,0 +1,1 @@
+"""OSS Watch application package."""

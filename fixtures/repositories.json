@@ -1,0 +1,136 @@
+[
+  {
+    "full_name": "wazuh/wazuh",
+    "name": "wazuh",
+    "description": "The Open Source Security Platform.",
+    "language": "C++",
+    "stars": 15080,
+    "forks": 2100,
+    "open_issues": 450,
+    "license": "GPL-2.0",
+    "default_branch": "master",
+    "created_at": "2015-01-01T00:00:00Z",
+    "updated_at": "2026-09-02T04:00:00Z",
+    "pushed_at": "2026-09-02T05:00:00Z",
+    "last_release": "2026-08-20",
+    "topics": [
+      "security",
+      "siem",
+      "xdr"
+    ],
+    "has_readme": true,
+    "rubric": {
+      "security_functionality": 5,
+      "detection_capability": 5,
+      "deployment_practicality": 4,
+      "defence_relevance": 5
+    }
+  },
+  {
+    "full_name": "OISF/suricata",
+    "name": "suricata",
+    "description": "Network Threat Detection, IDS, IPS and NSM engine.",
+    "language": "C",
+    "stars": 7900,
+    "forks": 1500,
+    "open_issues": 120,
+    "license": "GPL-2.0",
+    "default_branch": "master",
+    "created_at": "2011-01-01T00:00:00Z",
+    "updated_at": "2026-09-01T12:00:00Z",
+    "pushed_at": "2026-09-02T03:20:00Z",
+    "last_release": "2026-08-12",
+    "topics": [
+      "ids",
+      "ips",
+      "network-security"
+    ],
+    "has_readme": true,
+    "rubric": {
+      "security_functionality": 5,
+      "detection_capability": 5,
+      "deployment_practicality": 4,
+      "defence_relevance": 5
+    }
+  },
+  {
+    "full_name": "SigmaHQ/sigma",
+    "name": "sigma",
+    "description": "Generic Signature Format for SIEM Systems.",
+    "language": "Python",
+    "stars": 8600,
+    "forks": 1300,
+    "open_issues": 85,
+    "license": "LGPL-2.1",
+    "default_branch": "main",
+    "created_at": "2017-05-01T00:00:00Z",
+    "updated_at": "2026-08-31T10:00:00Z",
+    "pushed_at": "2026-09-01T08:00:00Z",
+    "last_release": "2026-07-30",
+    "topics": [
+      "detection",
+      "siem",
+      "threat-hunting"
+    ],
+    "has_readme": true,
+    "rubric": {
+      "security_functionality": 4,
+      "detection_capability": 5,
+      "deployment_practicality": 5,
+      "defence_relevance": 4
+    }
+  },
+  {
+    "full_name": "zeek/zeek",
+    "name": "zeek",
+    "description": "Powerful network analysis framework.",
+    "language": "C++",
+    "stars": 6100,
+    "forks": 1100,
+    "open_issues": 160,
+    "license": "BSD-3-Clause",
+    "default_branch": "master",
+    "created_at": "2012-01-01T00:00:00Z",
+    "updated_at": "2026-08-30T10:00:00Z",
+    "pushed_at": "2026-08-31T15:00:00Z",
+    "last_release": "2026-07-15",
+    "topics": [
+      "network-monitoring",
+      "security"
+    ],
+    "has_readme": true,
+    "rubric": {
+      "security_functionality": 4,
+      "detection_capability": 4,
+      "deployment_practicality": 4,
+      "defence_relevance": 4
+    }
+  },
+  {
+    "full_name": "TheHive-Project/TheHive",
+    "name": "TheHive",
+    "description": "Scalable, open source and free Security Incident Response Platform.",
+    "language": "Scala",
+    "stars": 3200,
+    "forks": 500,
+    "open_issues": 70,
+    "license": "AGPL-3.0",
+    "default_branch": "main",
+    "created_at": "2014-01-01T00:00:00Z",
+    "updated_at": "2026-08-28T09:00:00Z",
+    "pushed_at": "2026-08-29T11:00:00Z",
+    "last_release": "2026-06-22",
+    "topics": [
+      "incident-response",
+      "soc",
+      "case-management"
+    ],
+    "has_readme": true,
+    "rubric": {
+      "security_functionality": 4,
+      "detection_capability": 4,
+      "deployment_practicality": 3,
+      "defence_relevance": 4
+    }
+  }
+]
